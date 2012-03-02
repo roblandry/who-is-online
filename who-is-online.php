@@ -4,7 +4,7 @@
  Plugin URI: http://wordpress.org/extend/plugins/who-is-online/
  Description: Displays who is currently on your blog and for how long.
  Author: Peter McDonald
- Version: 0.1.5
+ Version: 0.1.5.1
  Author URI: http://collectionmanagers.com/
  */
 
