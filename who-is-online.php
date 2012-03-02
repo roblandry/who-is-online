@@ -120,7 +120,7 @@ function who_is_online_add_options_page()
 {
     if(function_exists('add_options_page'))
     {
-        add_options_page('Who Is Online', __('Who Is Online', 'who-is-online'), 8, __FILE__, 'who_is_online_options_page');
+        add_options_page('Who Is Online', __('Who Is Online', 'who-is-online'), 'Administrator', __FILE__, 'who_is_online_options_page');
     }
 }
 function who_is_online_options_page()
@@ -201,7 +201,7 @@ function who_is_online_add_users_page()
 {
     if(function_exists('add_users_page'))
     {
-        add_users_page(__('Who Is Online', 'who-is-online'), __('Who Is Online', 'who-is-online'), 8, __FILE__, 'who_is_online_display_online_users');
+        add_users_page(__('Who Is Online', 'who-is-online'), __('Who Is Online', 'who-is-online'), 'Administrator', __FILE__, 'who_is_online_display_online_users');
     }
 }
 function who_is_online_display_online_users()
