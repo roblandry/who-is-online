@@ -1,0 +1,147 @@
+# Translation of the WordPress plugin Who is Online 0.1.5 by Peter McDonald.
+# Copyright (C) 2010 Peter McDonald
+# This file is distributed under the same license as the Who is Online package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Who is Online 0.1.5\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/who-is-online\n"
+"POT-Creation-Date: 2010-02-16 20:33+0000\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: who-is-online.php:89 who-is-online.php:123 who-is-online.php:170
+#: who-is-online.php:204
+msgid "Who Is Online"
+msgstr ""
+
+#: who-is-online.php:96
+msgid "person"
+msgstr ""
+
+#: who-is-online.php:105
+#, php-format
+msgid "There is currently %d person online."
+msgid_plural "There is currently %d people online."
+msgstr[0] ""
+msgstr[1] ""
+
+#: who-is-online.php:107
+#, php-format
+msgid "%d member."
+msgid_plural "%d members."
+msgstr[0] ""
+msgstr[1] ""
+
+#: who-is-online.php:109
+#, php-format
+msgid "%d guest."
+msgid_plural "%d guests."
+msgstr[0] ""
+msgstr[1] ""
+
+#: who-is-online.php:111
+msgid "View them here."
+msgstr ""
+
+#: who-is-online.php:133
+msgid "Options saved"
+msgstr ""
+
+#: who-is-online.php:137
+msgid "You entered an invalid value"
+msgstr ""
+
+#: who-is-online.php:146 who-is-online.php:185
+msgid "Who's Online"
+msgstr ""
+
+#: who-is-online.php:148
+msgid "General settings"
+msgstr ""
+
+#: who-is-online.php:151
+msgid "Minutes Before Offline"
+msgstr ""
+
+#: who-is-online.php:152
+msgid ""
+"Determines how much time will pass before someone is considered offline."
+msgstr ""
+
+#: who-is-online.php:158
+msgid "Save Changes"
+msgstr ""
+
+#: who-is-online.php:188
+#, php-format
+msgid "%d Member."
+msgid_plural "%d Members."
+msgstr[0] ""
+msgstr[1] ""
+
+#: who-is-online.php:190
+#, php-format
+msgid "%d Guest."
+msgid_plural "%d Guests."
+msgstr[0] ""
+msgstr[1] ""
+
+#: who-is-online.php:215
+msgid "Online Users"
+msgstr ""
+
+#: who-is-online.php:219 who-is-online.php:228
+msgid "Username"
+msgstr ""
+
+#: who-is-online.php:220 who-is-online.php:229
+msgid "IP"
+msgstr ""
+
+#: who-is-online.php:221 who-is-online.php:230
+msgid "Time Online"
+msgstr ""
+
+#: who-is-online.php:222 who-is-online.php:231
+msgid "Page Views"
+msgstr ""
+
+#: who-is-online.php:223 who-is-online.php:232
+msgid "Viewing"
+msgstr ""
+
+#: who-is-online.php:251
+msgid "Guest"
+msgstr ""
+
+#: who-is-online.php:308
+msgid "online"
+msgstr ""
+
+#. Plugin Name of an extension
+msgid "Who is Online"
+msgstr ""
+
+#. Plugin URI of an extension
+msgid "http://wordpress.org/extend/plugins/who-is-online/"
+msgstr ""
+
+#. Description of an extension
+msgid "Displays who is currently on your blog and for how long."
+msgstr ""
+
+#. Author of an extension
+msgid "Peter McDonald"
+msgstr ""
+
+#. Author URI of an extension
+msgid "http://collectionmanagers.com/"
+msgstr ""

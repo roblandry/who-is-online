@@ -1,0 +1,155 @@
+# Translation of the WordPress plugin Who is Online 0.1.5 by Peter McDonald.
+# Copyright (C) 2010 Peter McDonald
+# This file is distributed under the same license as the Who is Online package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Who is Online 0.1.5\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/who-is-online\n"
+"POT-Creation-Date: 2010-02-16 20:33+0000\n"
+"PO-Revision-Date: 2010-02-16 21:29-0000\n"
+"Last-Translator: Peter <coffear@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+
+#: who-is-online.php:89
+#: who-is-online.php:123
+#: who-is-online.php:170
+#: who-is-online.php:204
+msgid "Who Is Online"
+msgstr "Kuka on online-tilassa"
+
+#: who-is-online.php:96
+msgid "person"
+msgstr "henkilö"
+
+#: who-is-online.php:105
+#, php-format
+msgid "There is currently %d person online."
+msgid_plural "There is currently %d people online."
+msgstr[0] "Tällä hetkellä on %d henkilöitä online-tilassa."
+msgstr[1] "Tällä hetkellä on %d ihmisiä online-tilassa."
+
+#: who-is-online.php:107
+#, php-format
+msgid "%d member."
+msgid_plural "%d members."
+msgstr[0] "%d jäsen."
+msgstr[1] "%d jäseniä."
+
+#: who-is-online.php:109
+#, php-format
+msgid "%d guest."
+msgid_plural "%d guests."
+msgstr[0] "%d vieras."
+msgstr[1] "%d vieraat."
+
+#: who-is-online.php:111
+msgid "View them here."
+msgstr "Tarkista ne tällä."
+
+#: who-is-online.php:133
+msgid "Options saved"
+msgstr "Valinat tallennettu"
+
+#: who-is-online.php:137
+msgid "You entered an invalid value"
+msgstr "Merkkasit epäkelvon arvon"
+
+#: who-is-online.php:146
+#: who-is-online.php:185
+msgid "Who's Online"
+msgstr "Kuka on Online-tilassa"
+
+#: who-is-online.php:148
+msgid "General settings"
+msgstr "Yleiset Asetukset"
+
+#: who-is-online.php:151
+msgid "Minutes Before Offline"
+msgstr "Minuuttia Ennen Offline-tilaa"
+
+#: who-is-online.php:152
+msgid "Determines how much time will pass before someone is considered offline."
+msgstr "Määrä aijan ennen kuin joku pidetään offline-tilassa."
+
+#: who-is-online.php:158
+msgid "Save Changes"
+msgstr "Tallentaa Muutokset"
+
+#: who-is-online.php:188
+#, php-format
+msgid "%d Member."
+msgid_plural "%d Members."
+msgstr[0] "%d Jäsen."
+msgstr[1] "%d Jäseniä."
+
+#: who-is-online.php:190
+#, php-format
+msgid "%d Guest."
+msgid_plural "%d Guests."
+msgstr[0] "%d Vieras."
+msgstr[1] "%d Vieraat."
+
+#: who-is-online.php:215
+msgid "Online Users"
+msgstr "Kytketty Käyttäjiä"
+
+#: who-is-online.php:219
+#: who-is-online.php:228
+msgid "Username"
+msgstr "Käyttäjätunnus"
+
+#: who-is-online.php:220
+#: who-is-online.php:229
+msgid "IP"
+msgstr "IP"
+
+#: who-is-online.php:221
+#: who-is-online.php:230
+msgid "Time Online"
+msgstr "Aika Kytketty"
+
+#: who-is-online.php:222
+#: who-is-online.php:231
+msgid "Page Views"
+msgstr "Sivujen Lataus"
+
+#: who-is-online.php:223
+#: who-is-online.php:232
+msgid "Viewing"
+msgstr "Katsele"
+
+#: who-is-online.php:251
+msgid "Guest"
+msgstr "Vieras"
+
+#: who-is-online.php:308
+msgid "online"
+msgstr "Online-tila"
+
+#. Plugin Name of an extension
+msgid "Who is Online"
+msgstr "Kuka on online-tilassa"
+
+#. Plugin URI of an extension
+msgid "http://wordpress.org/extend/plugins/who-is-online/"
+msgstr "http://wordpress.org/extend/plugins/who-is-online/"
+
+#. Description of an extension
+msgid "Displays who is currently on your blog and for how long."
+msgstr "Näyttää kuka on sinun blogilla, ja miten kauan on viipynyt."
+
+#. Author of an extension
+msgid "Peter McDonald"
+msgstr "Peter McDonald"
+
+#. Author URI of an extension
+msgid "http://collectionmanagers.com/"
+msgstr "http://collectionmanagers.com/"
+
