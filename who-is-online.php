@@ -14,7 +14,7 @@
 
 // FEATURE REQUEST http://support.collectionmanagers.com/showthread.php?tid=9
 
-load_plugin_textdomain('who-is-online','/wp-content/plugins/who-is-online/languages/');
+load_plugin_textdomain('who-is-online',false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 
 register_activation_hook(__FILE__, 'who_is_online_install');
 function who_is_online_install()
