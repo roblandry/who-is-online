@@ -14,14 +14,14 @@
 
 // FEATURE REQUEST http://support.collectionmanagers.com/showthread.php?tid=9
 
-load_plugin_textdomain('who-is-online',false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+load_plugin_textdomain('who-is-online', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 
 register_activation_hook(__FILE__, 'who_is_online_install');
 function who_is_online_install()
 {
     global $wpdb;
     $who_is_online_table = $wpdb->prefix . 'who_is_online';
-    $sql = 'CREATE TABLE ' . $who_is_online_table . ' (
+    $sql = 'CREATE TABLE IF NOT EXISTS ' . $who_is_online_table . ' (
   ip int(20) NOT NULL default \'0\',
   user_id bigint(20) default NULL,
   botname varchar(255) NOT NULL default \'\',
@@ -64,7 +64,7 @@ function who_is_online_update()
 {
     global $wpdb;
     $who_is_online_table = $wpdb->prefix . 'who_is_online';
-    $sql = 'CREATE TABLE ' . $who_is_online_table . ' (
+    $sql = 'CREATE TABLE IF NOT EXISTS ' . $who_is_online_table . ' (
   ip int(20) NOT NULL default \'0\',
   user_id bigint(20) default NULL,
   botname varchar(255) NOT NULL default \'\',
