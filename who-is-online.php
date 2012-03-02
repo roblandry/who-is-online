@@ -1,6 +1,6 @@
 <?php
 /*
- Plugin Name: Who is Online
+ Plugin Name: Who is Online (edited by Rob)
  Plugin URI: http://wordpress.org/extend/plugins/who-is-online/
  Description: Displays who is currently on your blog and for how long.
  Author: Peter McDonald
@@ -167,7 +167,7 @@ function who_is_online_output_options_page()
 add_action('init', who_is_online_widget_register);
 function who_is_online_widget_register()
 {
-    register_sidebar_widget(__('Who Is Online', 'who-is-online'), 'who_is_online_widget');
+    wp_register_sidebar_widget('Who Is Online', 'who-is-online', 'who_is_online_widget');
 }
 function who_is_online_widget($args)
 {
@@ -252,7 +252,7 @@ function who_is_online_display_online_users()
             }
             echo '<tr id=\'user-2\' class="alternate">
 <td class="username column-username"><img alt=\'\' src=\'http://www.gravatar.com/avatar/afa3d41f09219ba903e58f96a13eb5cd?s=32&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G\' class=\'avatar avatar-32 photo\' width=\'32\' /> <strong>' . $username . '</strong></td>
-<td class="ip column-ip"><a href="http://ws.arin.net/whois/?queryinput=' . long2ip($visitor->ip) . '" target="_blank">' . long2ip($visitor->ip) . '</a></td>
+<td class="ip column-ip"><a href="http://whois.arin.net/ui/query.do?q=' . long2ip($visitor->ip) . '" target="_blank">' . long2ip($visitor->ip) . '</a></td>
 <td class="online column-online">' . who_is_online_time_convert($visitor->time_on_site) . '</td>
 <td class="online column-online">' . $visitor->view_count . '</td>
 <td class="viewing column-viewing"><a href="' . attribute_escape($visitor->path) . '">' . attribute_escape($visitor->path) . '</a></td>
